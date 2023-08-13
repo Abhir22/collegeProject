@@ -1,0 +1,97 @@
+body {
+	background: linear-gradient(118deg, #229678, #465d78, #d0b316, #d07f0e, #d00ea6);
+background-size: 1000% 1000%;
+	-webkit-animation: AnimationName 15s ease infinite;
+	-moz-animation: AnimationName 15s ease infinite;
+	animation: AnimationName 15s ease infinite;
+}
+.gallery-block {
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+.gallery-block .heading {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.gallery-block .heading h2 {
+	font-weight: bold;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+.gallery-block.cards-gallery h6 {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.gallery-block.cards-gallery .card {
+	transition: 0.4s ease;
+}
+
+.gallery-block.cards-gallery .card img {
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+.gallery-block.cards-gallery .card-body {
+	text-align: center;
+}
+
+.gallery-block.cards-gallery .card-body p {
+	font-size: 15px;
+}
+
+.gallery-block.cards-gallery a {
+	color: #212529;
+}
+
+.gallery-block.cards-gallery a:hover {
+	text-decoration: none;
+}
+
+.gallery-block.cards-gallery .card {
+	margin-bottom: 30px;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+@media (min-width: 576px) {
+	.gallery-block .transform-on-hover:hover {
+		transform: translateY(-10px) scale(1.02);
+		box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+	}
+}
+
+@-webkit-keyframes AnimationName {
+	0% {
+		background-position: 35% 0%;
+	}
+	50% {
+		background-position: 66% 100%;
+	}
+	100% {
+		background-position: 35% 0%;
+	}
+}
+@-moz-keyframes AnimationName {
+	0% {
+		background-position: 35% 0%;
+	}
+	50% {
+		background-position: 66% 100%;
+	}
+	100% {
+		background-position: 35% 0%;
+	}
+}
+@keyframes AnimationName {
+	0% {
+		background-position: 35% 0%;
+	}
+	50% {
+		background-position: 66% 100%;
+	}
+	100% {
+		background-position: 35% 0%;
+	}
+}
